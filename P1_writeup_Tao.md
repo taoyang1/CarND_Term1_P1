@@ -67,5 +67,5 @@ iii. Another shortcoming is the manual and tedious process of tuning parameters 
 
 #### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to in the draw line function, instead of simplying using the sign of m (slope) to determine weather it's left line or right line, use kNN to detect two groups of slopes. This will automatically discard those horizontal lines and avoid the manual process.
+A possible improvement would be to in the draw line function, instead of simplying using the sign of m (slope) to determine weather it's left line or right line, use kmeans to detect two groups of slopes. This will automatically discard those horizontal lines and avoid the manual process.
 
